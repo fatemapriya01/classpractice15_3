@@ -1,0 +1,67 @@
+/*banner start*/
+.banner{
+	background-image: url(../images/Escape.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    background-size: cover;
+    padding-top: 35px;
+
+}
+/*navbar start*/
+.menu ul li a{
+	font-size: 18px;
+	color: #fff !important;
+	padding: 0 21px !important;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+
+}
+.menu ul li a:hover{
+	color: #e0e0e0 !important;
+}
+/*navbar end*/
+/*slider start*/
+.slider{
+	padding: 123px 0;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/toggler-round-icon.png);
+}
+.cid{
+	bottom: -92px;
+}
+.cid li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.cid-text{
+	color: #fff !important;
+	text-align: center;
+}
+.cid-text h2{
+	font-weight: 300;
+	font-size: 32px;
+	margin-bottom: 38px;
+}
+.cid-text h1{
+	font-size: 66px;
+	margin-bottom: 66px;
+}
+.cid-text button{
+	padding: 20px 66px;
+	font-size: 14px;
+	border: 2px solid #fff;
+	background:transparent;
+	transition: .5s;
+	color: #fff;
+}
+.cid-text button:hover{
+	background-color: white;
+	color: gray;
+}
+/*slider end*/
